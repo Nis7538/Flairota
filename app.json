@@ -1,0 +1,31 @@
+{
+    "expo": {
+        "name": "Meme",
+        "slug": "Meme",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/pepsi.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "android": {
+            "package": "com.meme.memeapp",
+            "versionCode": 1,
+            "config": {
+                "googleMobileAdsAppId": "ca-app-pub-2547344479047582~7785850471"
+            }
+        }
+    }
+}
